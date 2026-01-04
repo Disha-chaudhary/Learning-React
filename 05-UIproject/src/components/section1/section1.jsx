@@ -1,0 +1,14 @@
+import react from 'react';
+import Navbar from './navbar.jsx';
+import Page1Content from './page1content.jsx';
+
+const Section1 = () => {
+    return(
+        <div className='h-screen w-full bg-red-900'>
+            <Navbar />
+            <Page1Content />
+
+        </div>
+    )
+}
+export default Section1;
